@@ -1,0 +1,304 @@
+name: gmail
+desc: Some keyboard shortcuts are always enabled. Others need to be turned on in settings. [Learn more](https://support.google.com/mail/answer/6594)
+
+general:
+  - shortcut: c
+    desc: compose
+
+  - shortcut: d
+    desc: Compose in New Tab
+
+  - shortcut: /
+    desc: Search
+
+  - shortcut: k
+    desc: Move Up
+
+  - shortcut: j
+    desc: Move Down
+
+  - shortcut: n
+    desc: Newer Message
+
+  - shortcut: p
+    desc: Previous Message
+
+  - shortcut: `
+    desc: Go to Next Inbox Selection
+
+  - shortcut: ~
+    desc: Go to Previous Inbox Selection
+
+  - shortcut: o
+    desc: Open
+
+  - shortcut: u
+    desc: Return to Conversation List
+
+  - shortcut: e
+    desc: Archive/Remove
+
+  - shortcut: m
+    desc: Mute
+
+  - shortcut: x
+    desc: Select
+
+  - shortcut: s
+    desc: Star Conversation/Message
+
+  - shortcut: +
+    desc: Mark as Important
+
+  - shortcut: -
+    desc: Mark as Unimportant
+
+  - shortcut: \!
+    desc: Report Spam
+
+  - shortcut: r
+    desc: Reply
+
+  - shortcut: a
+    desc: Reply All
+
+  - shortcut: f
+    desc: Forward
+
+  - shortcut: ⎋
+    desc: Escape from Input Field
+
+  - shortcut: ⌘S
+    desc: Save Draft
+
+  - shortcut: \#
+    desc: Delete
+
+  - shortcut: l
+    desc: Label
+
+  - shortcut: v
+    desc: Move To
+
+  - shortcut: ⇧I
+    desc: Mark as Read
+
+  - shortcut: ⇧U
+    desc: Mark as Unread
+
+  - shortcut: [
+    desc: Removes Label from Current View & Moves to Older One
+
+  - shortcut: ]
+    desc: Removes Label from Current View & Moves to Newer One
+
+  - shortcut: {
+    desc: Archives Current Conversation & Moves to Older One
+
+  - shortcut: }
+    desc: Archives Current Conversation & Moves to Newer One
+
+  - shortcut: z
+    desc: Undo
+
+  - shortcut: ⇧N
+    desc: Update Current Conversation
+
+  - shortcut: q
+    desc: Move Cursor to Chat Search
+
+  - shortcut: .
+    desc: Show More Actions
+
+  - shortcut: ,
+    desc: Moves Cursor to First Button in Gmail Toolbar
+
+  - shortcut: ⌘↓
+    desc: Opens Options in Chat\
+
+combo keys:
+  - shortcut: ⇥↩
+    desc: Send Message
+
+  - shortcut: YO
+    desc: Archive & Next
+
+  - shortcut: GA
+    desc: Go to 'All Mail'
+
+  - shortcut: GS'Starred'
+
+  - shortcut: GC
+    desc: Go to 'Contacts'
+
+  - shortcut: GD
+    desc: Go to 'Drafts'
+
+  - shortcut: GL
+    desc: Go to 'Label'
+
+  - shortcut: GI
+    desc: Go to 'Inbox'
+
+  - shortcut: GT
+    desc: Go to 'Sent Mail'
+
+  - shortcut: *A
+    desc: Select All
+
+  - shortcut: *N
+    desc: Deselect All Mail
+
+  - shortcut: *U
+    desc: Selects All Unread Mail
+
+  - shortcut: *S
+    desc: Selects All Starred Mail
+
+  - shortcut: *T
+    desc: Selects All Unstarred Mail
+
+formatting:
+  - shortcut: ⌘⇧+
+    desc: Increase Font Size
+
+  - shortcut: ⌘⇧-
+    desc: Decrease Font Size
+
+  - shortcut: ⌘⇧5
+    desc: Change Font to Previous Font in Menu
+
+  - shortcut: ⌘⇧6
+    desc: Change From to Next Font in Menu
+
+  - shortcut: ⌘B
+    desc: Bold
+
+  - shortcut: ⌘I
+    desc: Italic
+
+  - shortcut: ⌘U
+    desc: Underline
+
+  - shortcut: ⌘⇧7
+    desc: Numbered List
+
+  - shortcut: ⌘⇧8
+    desc: Bulleted List
+
+  - shortcut: ⌘⇧L
+    desc: Align Left
+
+  - shortcut: ⌘⇧E
+    desc: Align Center
+
+  - shortcut: ⌘⇧R
+    desc: Align Right
+
+  - shortcut: ⌘[
+    desc: Indent Less
+
+  - shortcut: ⌘]
+    desc: Indent More
+
+  - shortcut: ⌘⇧9
+    desc: Quote
+
+  - shortcut: ⌘⇧.
+    desc: Right to Left
+
+  - shortcut: ⌘⇧,
+    desc: Left to Right
+
+  - shortcut: ⌘\
+    desc: Remove formatting
+
+  - shortcut: ⌘K
+    desc: Insert Link
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+conversation:
+  - shortcut: n
+    desc: Next Message
+
+  - shortcut: p
+    desc: Previous Message
+
+  - shortcut: ↩
+    desc: Open/Collapse Message
+
+compose:
+  - shortcut: ⌘↩
+    desc: Send Message
+
+  - shortcut: ⌘.
+    desc: Advance to Next Window
+
+  - shortcut: ⌘,
+    desc: Go to Previous Window
+
+  - shortcut: ⌘⇧C
+    desc: Add Cc Recipients
+
+  - shortcut: ⌘⇧B
+    desc: Add Bcc Recipients
+
+  - shortcut: ⌘⇧F
+    desc: Change "From" Address
+
+  - shortcut: ⇧⎋
+    desc: Focus Main Window
