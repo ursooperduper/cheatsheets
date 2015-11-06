@@ -2,199 +2,199 @@ name: Safari
 version: 9.0 (11601.1.56)
 
 general:
-  - shortcut: ⌘,
+  - shortcut: '⌘,'
     desc: Preferences
 
-  - shortcut: ⌘N
+  - shortcut: '⌘N'
     desc: New Window
 
-  - shortcut: ⇧⌘N
+  - shortcut: '⇧⌘N'
     desc: New Private Window
 
-  - shortcut: ⌘T
+  - shortcut: '⌘T'
     desc: New Tab
 
-  - shortcut: ⌘O
+  - shortcut: '⌘O'
     desc: Open File
 
-  - shortcut: ⌘L
+  - shortcut: '⌘L'
     desc: Open Location
 
-  - shortcut: ⌘W
+  - shortcut: '⌘W'
     desc: Close Window
 
-  - shortcut: ⌥⌘W
+  - shortcut: '⌥⌘W'
     desc: Close All Windows
 
-  - shortcut: ⌘S
+  - shortcut: '⌘S'
     desc: Save As
 
-  - shortcut: ⌘I
+  - shortcut: '⌘I'
     desc: Email This Page
 
-  - shortcut: ⌘P
+  - shortcut: '⌘P'
     desc: Print
 
 edit:
-  - shortcut: ⌘Z
+  - shortcut: '⌘Z'
     desc: Undo
 
-  - shortcut: ⇧⌘Z
+  - shortcut: '⇧⌘Z'
     desc: Redo
 
-  - shortcut: ⌘X
+  - shortcut: '⌘X'
     desc: Cut
 
-  - shortcut: ⌘C
+  - shortcut: '⌘C'
     desc: Copy
 
-  - shortcut: ⌘V
+  - shortcut: '⌘V'
     desc: Paste
 
-  - shortcut: ⌥⇧⌘V
+  - shortcut: '⌥⇧⌘V'
     desc: Paste and Match Style
 
-  - shortcut: ⌘A
+  - shortcut: '⌘A'
     desc: Select All
 
-  - shortcut: ⇧⌘A
+  - shortcut: '⇧⌘A'
     desc: Autofill Form
 
-  - shortcut: ⌃⌘Space
+  - shortcut: '⌃⌘Space'
     desc: Emoji & Symbols
 
 find:
-  - shortcut: ⌥⌘F
+  - shortcut: '⌥⌘F'
     desc: Google Search
 
-  - shortcut: ⌘F
+  - shortcut: '⌘F'
     desc: Find
 
-  - shortcut: ⌘G
+  - shortcut: '⌘G'
     desc: Find Next
 
-  - shortcut: ⇧⌘G
+  - shortcut: '⇧⌘G'
     desc: Find Previous
 
-  - shortcut: ⇧⌘F
+  - shortcut: '⇧⌘F'
     desc: Hide Find Banner
 
-  - shortcut: ⌘E
+  - shortcut: '⌘E'
     desc: Use Selection for Find
 
-  - shortcut: ⌘J
+  - shortcut: '⌘J'
     desc: Jump to Selection
 
 spelling and grammar:
-  - shortcut: ⌘:
+  - shortcut: '⌘:'
     desc: Show Spelling & Grammar
 
-  - shortcut: ⌘;
+  - shortcut: '⌘;'
     desc: Check Document Now
 
 view:
-  - shortcut: ⇧⌘B
+  - shortcut: '⇧⌘B'
     desc: Toggle Favorites Bar
 
-  - shortcut: ⇧⌘T
+  - shortcut: '⇧⌘T'
     desc: Toggle Tab Bar
 
-  - shortcut: ⌘/
+  - shortcut: '⌘/'
     desc: Toggle Status Bar
 
-  - shortcut: ⇧⌘L
+  - shortcut: '⇧⌘L'
     desc: Toggle Sidebar
 
-  - shortcut: ⌃⌘1
+  - shortcut: '⌃⌘1'
     desc: Toggle Bookmarks Sidebar
 
-  - shortcut: ⌃⌘2
+  - shortcut: '⌃⌘2'
     desc: Toggle Reading List Sidebar
 
-  - shortcut: ⌃⌘3
+  - shortcut: '⌃⌘3'
     desc: Toggle Shared Links Sidebar
 
-  - shortcut: ⇧⌘R
+  - shortcut: '⇧⌘R'
     desc: Toggle Reader
 
-  - shortcut: ⇧⌘\
+  - shortcut: '⇧⌘\'
     desc: Toggle Show All Tabs
 
-  - shortcut: ⌥⌘L
+  - shortcut: '⌥⌘L'
     desc: Toggle Downloads
 
-  - shortcut: ⌘.
+  - shortcut: '⌘.'
     desc: Stop
 
-  - shortcut: ⌘R
+  - shortcut: '⌘R'
     desc: Reload Page
 
-  - shortcut: ⌘0
+  - shortcut: '⌘0'
     desc: Actual Size
 
-  - shortcut: ⌘+
+  - shortcut: '⌘+'
     desc: Zoom In
 
-  - shortcut: ⌘-
+  - shortcut: '⌘-'
     desc: Zoom Out
 
-  - shortcut: ⌃⌘F
+  - shortcut: '⌃⌘F'
     desc: Toggle Fullscreen
 
 history:
-  - shortcut: ⌘Y
+  - shortcut: '⌘Y'
     desc: Toggle History
 
-  - shortcut: ⌘[
+  - shortcut: '⌘['
     desc: Back
 
-  - shortcut: ⌘]
+  - shortcut: '⌘]'
     desc: Forward
 
-  - shortcut: ⇧⌘H
+  - shortcut: '⇧⌘H'
     desc: Home
 
-  - shortcut: ⌥⌘S
+  - shortcut: '⌥⌘S'
     desc: Search Results SnapBack
 
 bookmarks:
-  - shortcut: ⌥⌘B
+  - shortcut: '⌥⌘B'
     desc: Edit Bookmarks
 
-  - shortcut: ⌘D
+  - shortcut: '⌘D'
     desc: Add Bookmark
 
-  - shortcut: ⇧⌘D
+  - shortcut: '⇧⌘D'
     desc: Add to Reading List
 
 develop:
-  - shortcut: ⌥⌘R
+  - shortcut: '⌥⌘R'
     desc: Enter Responsive Design Mode
 
-  - shortcut: ⌥⌘I
+  - shortcut: '⌥⌘I'
     desc: Toggle Web Inspector
 
-  - shortcut: ⌥⌘C
+  - shortcut: '⌥⌘C'
     desc: Toggle Error Console
 
-  - shortcut: ⌥⌘U
+  - shortcut: '⌥⌘U'
     desc: Toggle Page Source
 
-  - shortcut: ⌥⌘A
+  - shortcut: '⌥⌘A'
     desc: Toggle Page Resources
 
-  - shortcut: ⌥⇧⌘T
+  - shortcut: '⌥⇧⌘T'
     desc: Toggle Timeline Recording
 
-  - shortcut: ⌥⌘E
+  - shortcut: '⌥⌘E'
     desc: Empty Caches
 
 window:
-  - shortcut: ⌘M
+  - shortcut: '⌘M'
     desc: Minimize
 
-  - shortcut: ⌃⇧⇥
+  - shortcut: '⌃⇧⇥'
     desc: Show Previous Tab
 
-  - shortcut: ⇧⇥
+  - shortcut: '⇧⇥'
     desc: Show Next Tab

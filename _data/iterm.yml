@@ -2,292 +2,292 @@ name: iTerm 2
 version: 2.9.2
 
 shell:
-  - shortcut: ⌘N
+  - shortcut: '⌘N'
     desc: New Window
 
-  - shortcut: ⌘T
+  - shortcut: '⌘T'
     desc: New Tab
 
-  - shortcut: ⌘T
+  - shortcut: '⌘T'
     desc: New Tab w/Current Profile
 
-  - shortcut: ⌘D
+  - shortcut: '⌘D'
     desc: Vertical Split w/Current Profile
 
-  - shortcut: ⇧⌘D
+  - shortcut: '⇧⌘D'
     desc: Horizontal Split w/Current Profile
 
-  - shortcut: ⌥⇧⌘V
+  - shortcut: '⌥⇧⌘V'
     desc: Vertical Split
 
-  - shortcut: ⌥⇧⌘H
+  - shortcut: '⌥⇧⌘H'
     desc: Horizontal Split
 
-  - shortcut: ⌘S
+  - shortcut: '⌘S'
     desc: Save Selected Text
 
-  - shortcut: ⌘W
+  - shortcut: '⌘W'
     desc: Close
 
-  - shortcut: ⇧⌘W
+  - shortcut: '⇧⌘W'
     desc: Close Terminal Window
 
-  - shortcut: ⌥⌘W
+  - shortcut: '⌥⌘W'
     desc: Close All Panes in Tab
 
-  - shortcut: ⌥⌘R
+  - shortcut: '⌥⌘R'
     desc: Run Coprocess
 
-  - shortcut: ⌥⇧⌘R
+  - shortcut: '⌥⇧⌘R'
     desc: Stop Coprocess
 
-  - shortcut: ⇧⌘P
+  - shortcut: '⇧⌘P'
     desc: Page Setup
 
 broadcast input:
-  - shortcut: ⌥⇧⌘I
+  - shortcut: '⌥⇧⌘I'
   - desc: Send Input to Current Session Only
 
-  - shortcut: ⇧⌘I
+  - shortcut: '⇧⌘I'
     desc: Broadcast Input to All Panes in All Tabs
 
-  - shortcut: ⌥⌘I
+  - shortcut: '⌥⌘I'
     desc: Broadcast Input to All Panes in Current Tab
 
-  - shortcut:
+  - shortcut: '⌃⌥⇧⌘I'
     desc: Toggle Broadcast Input to Current Session
 
 tmux:
-  - shortcut: ⌃⇧⌘D
+  - shortcut: '⌃⇧⌘D'
     desc: Detach
 
-  - shortcut: ⌃⇧⌘N
+  - shortcut: '⌃⇧⌘N'
     desc: New Window
 
-  - shortcut: ⌃⇧⌘T
+  - shortcut: '⌃⇧⌘T'
     desc: New Tab
 
-  - shortcut: ⌃⇧⌘↩
+  - shortcut: '⌃⇧⌘↩'
     desc: Dashboard
 
 print:
-  - shortcut: ⌘P
+  - shortcut: '⌘P'
     desc: Screen
 
-  - shortcut: ⌥⌘P
+  - shortcut: '⌥⌘P'
     desc: Selection
 
-  - shortcut: ⌥⇧⌘P
+  - shortcut: '⌥⇧⌘P'
     desc: Buffer
 
 misc:
-  - shortcut: ⌘,
+  - shortcut: '⌘,'
     desc: Preferences
 
-  - shortcut: ⌥⌘S
+  - shortcut: '⌥⌘S'
     desc: Secure Keyboard Entry
 
 edit:
-  - shortcut: ⌘Z
+  - shortcut: '⌘Z'
     desc: Undo
 
-  - shortcut: ⇧⌘Z
+  - shortcut: '⇧⌘Z'
     desc: Redo
 
-  - shortcut: ⌘X
+  - shortcut: '⌘X'
     desc: Cut
 
-  - shortcut: ⌘C
+  - shortcut: '⌘C'
     desc: Copy
 
-  - shortcut: ⌘V
+  - shortcut: '⌘V'
     desc: Paste
 
-  - shortcut: ⌥⌘V
+  - shortcut: '⌥⌘V'
     desc: Advanced Paste
 
-  - shortcut: ⇧⌘V
+  - shortcut: '⇧⌘V'
     desc: Paste Selection
 
-  - shortcut: ⌥⌘O
+  - shortcut: '⌥⌘O'
     desc: Open Selection
 
-  - shortcut: ⌘A
+  - shortcut: '⌘A'
     desc: Select All
 
-  - shortcut: ⌥⇧⌘A
+  - shortcut: '⌥⇧⌘A'
     desc: Selection Respects Soft Boundaries
 
-  - shortcut: ⇧⌘A
+  - shortcut: '⇧⌘A'
     desc: Select Output of Last Command
 
-  - shortcut: ⌘I
+  - shortcut: '⌘I'
     desc: Edit Session
 
-  - shortcut: ⌘;
+  - shortcut: '⌘;'
     desc: Open Autocomplete
 
-  - shortcut: ⌥⌘/
+  - shortcut: '⌥⌘/'
     desc: Open Recent Directories
 
-  - shortcut: ⇧⌘H
+  - shortcut: '⇧⌘H'
     desc: Open Paste History
 
-  - shortcut: ⌘K
+  - shortcut: '⌘K'
     desc: Clear Buffer
 
-  - shortcut: ⇧⌘K
+  - shortcut: '⇧⌘K'
     desc: Clear Scrollback Buffer
 
-  - shortcut: ⌘R
+  - shortcut: '⌘R'
     desc: Reset
 
-  - shortcut: ⌃⌘Space
+  - shortcut: '⌃⌘Space'
     desc: Emoji & Symbols
 
 find:
-  - shortcut: ⌘F
+  - shortcut: '⌘F'
     desc: Find
 
-  - shortcut: ⌘G
+  - shortcut: '⌘G'
     desc: Find Next
 
-  - shortcut: ⇧⌘G
+  - shortcut: '⇧⌘G'
     desc: Find Previous
 
-  - shortcut: ⌘E
+  - shortcut: '⌘E'
     desc: Use Selection for Find
 
-  - shortcut: ⌘J
+  - shortcut: '⌘J'
     desc: Jump to Selection
 
-  - shortcut: ⌥⌘U
+  - shortcut: '⌥⌘U'
     desc: Find URLs
 
 marks and annotations:
-  - shortcut: ⇧⌘M
+  - shortcut: '⇧⌘M'
     desc: Set Mark
 
-  - shortcut: ⌥⌘M
+  - shortcut: '⌥⌘M'
     desc: Add Annotation at Cursor
 
-  - shortcut: ⇧⌘J
+  - shortcut: '⇧⌘J'
     desc: Jump to Mark
 
-  - shortcut: ⇧⌘↑
+  - shortcut: '⇧⌘↑'
     desc: Previous Mark/Annotation
 
-  - shortcut: ⇧⌘↓
+  - shortcut: '⇧⌘↓'
     desc: Next Mark/Annotation
 
-  - shortcut: ⌥⌘A
+  - shortcut: '⌥⌘A'
     desc: Alert on Next Mark
 
 view:
-  - shortcut: ⇧⌘T
+  - shortcut: '⇧⌘T'
     desc: Show Tabs in Fullscreen
 
-  - shortcut: ⌘↩
+  - shortcut: '⌘↩'
     desc: Toggle Fullscreen
 
-  - shortcut: ⌘U
+  - shortcut: '⌘U'
     desc: Use Transparency
 
-  - shortcut: ⌥⌘Z
+  - shortcut: '⌥⌘Z'
     desc: Zoom In on Selection
 
-  - shortcut: ⎋
+  - shortcut: '⎋'
     desc: Zoom Out
 
-  - shortcut: ⌘/
+  - shortcut: '⌘/'
     desc: Find Cursor
 
-  - shortcut: ⌥⌘;
+  - shortcut: '⌥⌘;'
     desc: Show Cursor Guide
 
-  - shortcut: ⇧⌘E
+  - shortcut: '⇧⌘E'
     desc: Show Timestamps
 
-  - shortcut: ⌘\
+  - shortcut: '⌘\'
     desc: Show Annotations
 
-  - shortcut: ⌥⇧⌘Y
+  - shortcut: '⌥⇧⌘Y'
     desc: Auto Command Completion
 
-  - shortcut: ⇧⌘O
+  - shortcut: '⇧⌘O'
     desc: Open Quickly
 
-  - shortcut: ⇧⌘↩
+  - shortcut: '⇧⌘↩'
     desc: Maximize Active Pane
 
-  - shortcut: ⌘+
+  - shortcut: '⌘+'
     desc: Make Text Bigger
 
-  - shortcut: ⌘0
+  - shortcut: '⌘0'
     desc: Make Text Normal Size
 
-  - shortcut: ⌘-
+  - shortcut: '⌘-'
     desc: Make Text Smaller
 
-  - shortcut: ⌥⌘B
+  - shortcut: '⌥⌘B'
     desc: Start Instant Replay
 
 profiles:
-  - shortcut: ⌘O
+  - shortcut: '⌘O'
     desc: Open Profiles
 
 toolbelt:
-  - shortcut: ⇧⌘B
+  - shortcut: '⇧⌘B'
     desc: Show Toolbelt
 
 window:
-  - shortcut: ⌘M
+  - shortcut: '⌘M'
     desc: Minimize
 
-  - shortcut: ⌥⌘=
+  - shortcut: '⌥⌘='
     desc: Maximize
 
-  - shortcut: ⌥⌘E
+  - shortcut: '⌥⌘E'
     desc: Exposé All Tabs
 
-  - shortcut: ⇧⌘S
+  - shortcut: '⇧⌘S'
     desc: Save Window Arrangement
 
-  - shortcut: ⌥⌘↑
+  - shortcut: '⌥⌘↑'
     desc: Select Pane Above
 
-  - shortcut: ⌥⌘↓
+  - shortcut: '⌥⌘↓'
     desc: Select Pane Below
 
-  - shortcut: ⌥⌘←
+  - shortcut: '⌥⌘←'
     desc: Select Pane Left
 
-  - shortcut: ⌥⌘→
+  - shortcut: '⌥⌘→'
     desc: Select Pane Right
 
-  - shortcut: ⌃⌘↑
+  - shortcut: '⌃⌘↑'
     desc: Move Pane Divider Up
 
-  - shortcut: ⌃⌘↓
+  - shortcut: '⌃⌘↓'
     desc: Move Pane Divider Down
 
-  - shortcut: ⌃⌘←
+  - shortcut: '⌃⌘←'
     desc: Move Pane Divider Left
 
-  - shortcut: ⌃⌘→
+  - shortcut: '⌃⌘→'
     desc: Move Pane Divider Right
 
-  - shortcut: ⇧⌘]
+  - shortcut: '⇧⌘]'
     desc: Select Next Tab
 
-  - shortcut: ⇧⌘[
+  - shortcut: '⇧⌘['
     desc: Select Previous Tab
 
-  - shortcut: ⌥⇧⌘[
+  - shortcut: '⌥⇧⌘['
     desc: Move Tab Left
 
-  - shortcut: ⌥⇧⌘]
+  - shortcut: '⌥⇧⌘]'
     desc: Move Tab Right
 
-  - shortcut: ⌥⌘F
+  - shortcut: '⌥⌘F'
     desc: Password Manager

@@ -1,82 +1,82 @@
 name: Twitter (Web)
 
 actions:
-  - shortcut: N
+  - shortcut: 'N'
     desc: New Tweet
 
-  - shortcut: L
+  - shortcut: 'L'
     desc: Like
 
-  - shortcut: R
+  - shortcut: 'R'
     desc: Reply
 
-  - shortcut: T
+  - shortcut: 'T'
     desc: Retweet
 
-  - shortcut: M
+  - shortcut: 'M'
     desc: Direct Message
 
-  - shortcut: U
+  - shortcut: 'U'
     desc: Mute User
 
-  - shortcut: B
+  - shortcut: 'B'
     desc: Block User
 
-  - shortcut: ↩
+  - shortcut: '↩'
     desc: Open Tweet Details
 
-  - shortcut: C
+  - shortcut: 'C'
     desc: Close All Open Tweets
 
-  - shortcut: O
+  - shortcut: 'O'
     desc: Expand Photo
 
-  - shortcut: /
+  - shortcut: '/'
     desc: Search
 
-  - shortcut: ⌘↩
+  - shortcut: '⌘↩'
     desc: Send Tweet
 
 navigation:
-  - shortcut: ?
+  - shortcut: '?'
     desc: Keyboard Shortcuts
 
-  - shortcut: J
+  - shortcut: 'J'
     desc: Next Tweet
 
-  - shortcut: K
+  - shortcut: 'K'
     desc: Previous Tweet
 
-  - shortcut: SPACE
+  - shortcut: 'SPACE'
     desc: Page Down
 
-  - shortcut: .
+  - shortcut: '.'
     desc: Load New Tweets
 
 timelines:
-  - shortcut: GH
+  - shortcut: 'GH'
     desc: Home
 
-  - shortcut: GN
+  - shortcut: 'GN'
     desc: Notifications
 
-  - shortcut: GR
+  - shortcut: 'GR'
     desc: Mentions
 
-  - shortcut: GP
+  - shortcut: 'GP'
     desc: Profile
 
-  - shortcut: GL
+  - shortcut: 'GL'
     desc: Likes
 
-  - shortcut: GI
+  - shortcut: 'GI'
     desc: Lists
 
-  - shortcut: GM
+  - shortcut: 'GM'
     desc: Messages
 
-  - shortcut: GS
+  - shortcut: 'GS'
     desc: Settings
 
-  - shortcut: GU
+  - shortcut: 'GU'
     desc: Go to User

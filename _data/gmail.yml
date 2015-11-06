@@ -2,218 +2,213 @@ name: gmail
 desc: Some keyboard shortcuts are always enabled. Others need to be turned on in settings. [Learn more](https://support.google.com/mail/answer/6594)
 
 general:
-  - shortcut: c
+  - shortcut: 'c'
     desc: compose
 
-  - shortcut: d
+  - shortcut: 'd'
     desc: Compose in New Tab
 
-  - shortcut: /
+  - shortcut: '/'
     desc: Search
 
-  - shortcut: k
+  - shortcut: 'k'
     desc: Move Up
 
-  - shortcut: j
+  - shortcut: 'j'
     desc: Move Down
 
-  - shortcut: n
+  - shortcut: 'n'
     desc: Newer Message
 
-  - shortcut: p
+  - shortcut: 'p'
     desc: Previous Message
 
-  - shortcut: `
-    desc: Go to Next Inbox Selection
-
-  - shortcut: ~
-    desc: Go to Previous Inbox Selection
-
-  - shortcut: o
+  - shortcut: 'o'
     desc: Open
 
-  - shortcut: u
+  - shortcut: 'u'
     desc: Return to Conversation List
 
-  - shortcut: e
+  - shortcut: 'e'
     desc: Archive/Remove
 
-  - shortcut: m
+  - shortcut: 'm'
     desc: Mute
 
-  - shortcut: x
+  - shortcut: 'x'
     desc: Select
 
-  - shortcut: s
+  - shortcut: 's'
     desc: Star Conversation/Message
 
-  - shortcut: +
+  - shortcut: '+'
     desc: Mark as Important
 
-  - shortcut: -
+  - shortcut: '-'
     desc: Mark as Unimportant
 
-  - shortcut: \!
+  - shortcut: '!'
     desc: Report Spam
 
-  - shortcut: r
+  - shortcut: 'r'
     desc: Reply
 
-  - shortcut: a
+  - shortcut: 'a'
     desc: Reply All
 
-  - shortcut: f
+  - shortcut: 'f'
     desc: Forward
 
-  - shortcut: ⎋
+  - shortcut: '⎋'
     desc: Escape from Input Field
 
-  - shortcut: ⌘S
+  - shortcut: '⌘S'
     desc: Save Draft
 
-  - shortcut: \#
+  - shortcut: '#'
     desc: Delete
 
-  - shortcut: l
+  - shortcut: 'l'
     desc: Label
 
-  - shortcut: v
+  - shortcut: 'v'
     desc: Move To
 
-  - shortcut: ⇧I
+  - shortcut: '⇧I'
     desc: Mark as Read
 
-  - shortcut: ⇧U
+  - shortcut: '⇧U'
     desc: Mark as Unread
 
-  - shortcut: [
+  - shortcut: '['
     desc: Removes Label from Current View & Moves to Older One
 
-  - shortcut: ]
+  - shortcut: ']'
     desc: Removes Label from Current View & Moves to Newer One
 
-  - shortcut: {
+  - shortcut: '{'
     desc: Archives Current Conversation & Moves to Older One
 
-  - shortcut: }
+  - shortcut: '}'
     desc: Archives Current Conversation & Moves to Newer One
 
-  - shortcut: z
+  - shortcut: 'z'
     desc: Undo
 
-  - shortcut: ⇧N
+  - shortcut: '⇧N'
     desc: Update Current Conversation
 
-  - shortcut: q
+  - shortcut: 'q'
     desc: Move Cursor to Chat Search
 
-  - shortcut: .
+  - shortcut: '.'
     desc: Show More Actions
 
-  - shortcut: ,
+  - shortcut: ','
     desc: Moves Cursor to First Button in Gmail Toolbar
 
-  - shortcut: ⌘↓
+  - shortcut: '⌘↓'
     desc: Opens Options in Chat\
 
 combo keys:
-  - shortcut: ⇥↩
+  - shortcut: '⇥↩'
     desc: Send Message
 
-  - shortcut: YO
+  - shortcut: 'YO'
     desc: Archive & Next
 
-  - shortcut: GA
-    desc: Go to 'All Mail'
+  - shortcut: 'GA'
+    desc: Go to All Mail
 
-  - shortcut: GS'Starred'
+  - shortcut: 'GS'
+    desc: Go to Starred
 
-  - shortcut: GC
-    desc: Go to 'Contacts'
+  - shortcut: 'GC'
+    desc: Go to Contacts
 
-  - shortcut: GD
-    desc: Go to 'Drafts'
+  - shortcut: 'GD'
+    desc: Go to Drafts
 
-  - shortcut: GL
-    desc: Go to 'Label'
+  - shortcut: 'GL'
+    desc: Go to Label
 
-  - shortcut: GI
-    desc: Go to 'Inbox'
+  - shortcut: 'GI'
+    desc: Go to Inbox
 
-  - shortcut: GT
-    desc: Go to 'Sent Mail'
+  - shortcut: 'GT'
+    desc: Go to Sent Mail
 
-  - shortcut: *A
+  - shortcut: '*A'
     desc: Select All
 
-  - shortcut: *N
+  - shortcut: '*N'
     desc: Deselect All Mail
 
-  - shortcut: *U
+  - shortcut: '*U'
     desc: Selects All Unread Mail
 
-  - shortcut: *S
+  - shortcut: '*S'
     desc: Selects All Starred Mail
 
-  - shortcut: *T
+  - shortcut: '*T'
     desc: Selects All Unstarred Mail
 
 formatting:
-  - shortcut: ⌘⇧+
+  - shortcut: '⌘⇧+'
     desc: Increase Font Size
 
-  - shortcut: ⌘⇧-
+  - shortcut: '⌘⇧-'
     desc: Decrease Font Size
 
-  - shortcut: ⌘⇧5
+  - shortcut: '⌘⇧5'
     desc: Change Font to Previous Font in Menu
 
-  - shortcut: ⌘⇧6
+  - shortcut: '⌘⇧6'
     desc: Change From to Next Font in Menu
 
-  - shortcut: ⌘B
+  - shortcut: '⌘B'
     desc: Bold
 
-  - shortcut: ⌘I
+  - shortcut: '⌘I'
     desc: Italic
 
-  - shortcut: ⌘U
+  - shortcut: '⌘U'
     desc: Underline
 
-  - shortcut: ⌘⇧7
+  - shortcut: '⌘⇧7'
     desc: Numbered List
 
-  - shortcut: ⌘⇧8
+  - shortcut: '⌘⇧8'
     desc: Bulleted List
 
-  - shortcut: ⌘⇧L
+  - shortcut: '⌘⇧L'
     desc: Align Left
 
-  - shortcut: ⌘⇧E
+  - shortcut: '⌘⇧E'
     desc: Align Center
 
-  - shortcut: ⌘⇧R
+  - shortcut: '⌘⇧R'
     desc: Align Right
 
-  - shortcut: ⌘[
+  - shortcut: '⌘['
     desc: Indent Less
 
-  - shortcut: ⌘]
+  - shortcut: '⌘]'
     desc: Indent More
 
-  - shortcut: ⌘⇧9
+  - shortcut: '⌘⇧9'
     desc: Quote
 
-  - shortcut: ⌘⇧.
+  - shortcut: '⌘⇧.'
     desc: Right to Left
 
-  - shortcut: ⌘⇧,
+  - shortcut: '⌘⇧,'
     desc: Left to Right
 
-  - shortcut: ⌘\
+  - shortcut: '⌘\'
     desc: Remove formatting
 
-  - shortcut: ⌘K
+  - shortcut: '⌘K'
     desc: Insert Link
 
 
