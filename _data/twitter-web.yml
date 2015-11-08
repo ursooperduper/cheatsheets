@@ -1,5 +1,10 @@
 name: Twitter (Web)
 
+sections:
+  - actions
+  - navigation
+  - timelines
+
 actions:
   - shortcut: 'N'
     desc: New Tweet
@@ -34,7 +39,7 @@ actions:
   - shortcut: '/'
     desc: Search
 
-  - shortcut: '⌘↩'
+  - shortcut: '⌘ ↩'
     desc: Send Tweet
 
 navigation:
@@ -54,29 +59,29 @@ navigation:
     desc: Load New Tweets
 
 timelines:
-  - shortcut: 'GH'
+  - shortcut: 'G H'
     desc: Home
 
-  - shortcut: 'GN'
+  - shortcut: 'G N'
     desc: Notifications
 
-  - shortcut: 'GR'
+  - shortcut: 'G R'
     desc: Mentions
 
-  - shortcut: 'GP'
+  - shortcut: 'G P'
     desc: Profile
 
-  - shortcut: 'GL'
+  - shortcut: 'G L'
     desc: Likes
 
-  - shortcut: 'GI'
+  - shortcut: 'G I'
     desc: Lists
 
-  - shortcut: 'GM'
+  - shortcut: 'G M'
     desc: Messages
 
-  - shortcut: 'GS'
+  - shortcut: 'G S'
     desc: Settings
 
-  - shortcut: 'GU'
+  - shortcut: 'G U'
     desc: Go to User

@@ -19,5 +19,5 @@
 - name: Delete
   symbol: ⌫
 
-- name: ⇥
-  symbol: Tab
+- name: Tab
+  symbol: ⇥
