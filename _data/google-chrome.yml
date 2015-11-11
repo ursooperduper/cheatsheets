@@ -96,7 +96,7 @@ find:
   - shortcut: '⌘ J'
     desc: Jump to Selection
 
-spelling and grammer:
+spelling and grammar:
   - shortcut: '⌘ :'
     desc: Show Spelling and Grammar
 
