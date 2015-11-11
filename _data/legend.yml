@@ -4,7 +4,7 @@
 - name: Control
   symbol: ⌃
 
-- name: option
+- name: Option
   symbol: ⌥
 
 - name: Command
