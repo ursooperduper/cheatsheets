@@ -3,6 +3,7 @@ desc: Some keyboard shortcuts are always enabled. Others need to be turned on in
 
 sections:
   - general
+  - navigation
   - combo keys
   - formatting
   - conversation
@@ -18,23 +19,8 @@ general:
   - shortcut: '/'
     desc: Search
 
-  - shortcut: 'K'
-    desc: Move Up
-
-  - shortcut: 'J'
-    desc: Move Down
-
-  - shortcut: 'N'
-    desc: Newer Message
-
-  - shortcut: 'P'
-    desc: Previous Message
-
   - shortcut: 'O'
     desc: Open
-
-  - shortcut: 'U'
-    desc: Return to Conversation List
 
   - shortcut: 'E'
     desc: Archive/Remove
@@ -44,6 +30,9 @@ general:
 
   - shortcut: 'X'
     desc: Select
+
+  - shortcut: 'Z'
+    desc: Undo
 
   - shortcut: 'S'
     desc: Star Conversation/Message
@@ -87,6 +76,28 @@ general:
   - shortcut: '⇧ U'
     desc: Mark as Unread
 
+  - shortcut: '.'
+    desc: Show More Actions
+
+  - shortcut: ','
+    desc: Moves Cursor to First Button in Gmail Toolbar
+
+navigation:
+  - shortcut: 'K'
+    desc: Move Up
+
+  - shortcut: 'J'
+    desc: Move Down
+
+  - shortcut: 'N'
+    desc: Newer Message
+
+  - shortcut: 'P'
+    desc: Previous Message
+
+  - shortcut: 'U'
+    desc: Return to Conversation List
+
   - shortcut: '['
     desc: Removes Label from Current View & Moves to Older One
 
@@ -98,24 +109,6 @@ general:
 
   - shortcut: '}'
     desc: Archives Current Conversation & Moves to Newer One
-
-  - shortcut: 'Z'
-    desc: Undo
-
-  - shortcut: '⇧ N'
-    desc: Update Current Conversation
-
-  - shortcut: 'Q'
-    desc: Move Cursor to Chat Search
-
-  - shortcut: '.'
-    desc: Show More Actions
-
-  - shortcut: ','
-    desc: Moves Cursor to First Button in Gmail Toolbar
-
-  - shortcut: '⌘ ↓'
-    desc: Opens Options in Chat\
 
 combo keys:
   - shortcut: '⇥ ↩'
@@ -227,6 +220,9 @@ conversation:
 
   - shortcut: '↩'
     desc: Open/Collapse Message
+
+  - shortcut: '⇧ N'
+    desc: Update Current Conversation
 
 compose:
   - shortcut: '⌘ ↩'
