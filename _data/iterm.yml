@@ -60,7 +60,7 @@ shell:
 
 broadcast input:
   - shortcut: '⌥ ⇧ ⌘ I'
-  - desc: Send Input to Current Session Only
+    desc: Send Input to Current Session Only
 
   - shortcut: '⇧ ⌘ I'
     desc: Broadcast Input to All Panes in All Tabs
