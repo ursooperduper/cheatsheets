@@ -108,7 +108,7 @@ lines:
   - shortcut: '⌃ G'
     desc: Go To Line
 
-  - shorcut: '⌃ ⇧ L'
+  - shortcut: '⌃ ⇧ L'
     desc: Select Grammar
 
   - shortcut: '⌃ ⌘ Space'
