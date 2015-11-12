@@ -11,7 +11,7 @@ sections:
 
 general:
   - shortcut: 'C'
-    desc: compose
+    desc: Compose
 
   - shortcut: 'D'
     desc: Compose in New Tab
