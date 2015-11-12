@@ -52,7 +52,7 @@ navigation:
   - shortcut: 'K'
     desc: Previous Tweet
 
-  - shortcut: 'SPACE'
+  - shortcut: 'Space'
     desc: Page Down
 
   - shortcut: '.'
