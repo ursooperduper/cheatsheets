@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -e # halt script on error
 
-bundle exec yaml-line _data/
+bundle exec yaml-lint _data/
