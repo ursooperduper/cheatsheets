@@ -13,6 +13,6 @@ layout: base
 %ul.cheat-list
   {% for cs in site.cheatsheets %}
   %li<
-    %a{href: "{{ cs.url }}"}<
+    %a{href: "{{ site.baseurl }}{{ cs.url }}"}<
       {{ cs.name }}
   {% endfor %}

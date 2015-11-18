@@ -7,6 +7,6 @@ layout: base
 <h3>Available Cheatsheets</h3>
 <ul class='cheat-list'>
   {% for cs in site.cheatsheets %}
-  <li><a href='{{ cs.url }}'>{{ cs.name }}</a></li>
+  <li><a href='{{ site.baseurl }}{{ cs.url }}'>{{ cs.name }}</a></li>
   {% endfor %}
 </ul>
