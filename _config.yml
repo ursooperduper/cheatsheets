@@ -18,7 +18,7 @@ exclude:
  - tmux-cheat-sess
  - vendor
 encoding: "utf-8"
-baseurl: "/"
+baseurl: "/cheatsheets"
 markdown: kramdown
 kramdown:
     input: GFM
