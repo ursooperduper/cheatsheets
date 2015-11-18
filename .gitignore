@@ -3,7 +3,5 @@ node_modules
 _site
 .sass-cache
 images
-css/scss/main.scss
-css/main.css
 Gemfile.lock
 vendor
