@@ -2,9 +2,15 @@
 layout: cheatsheet
 name: Twitter (Web)
 data-file: twitter-web
-section-1:
+sections:
   - Actions
-section-2:
   - Navigation
+  - Timelines
+print:
+  section-1:
+  - Actions
+  section-2:
+  - Navigation
+  section-3:
   - Timelines
 ---

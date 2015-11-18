@@ -2,13 +2,25 @@
 layout: cheatsheet
 name: Atom
 data-file: atom
-section-1:
+sections:
   - General
   - Edit
   - Lines
   - Text
-section-2:
   - Selection
+  - Find
+  - View
+  - Developer
+print:
+  section-1:
+  - General
+  - Selection
+  section-2:
+  - Edit
+  - Text
+  - Lines
+  section-3:
+  - Fold
   - Find
   - View
   - Developer
