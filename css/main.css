@@ -172,7 +172,7 @@ hr {
   width: 100%;
   height: 100px;
   margin: 0;
-  background: url("../images/header-bg2.jpg") no-repeat center center; }
+  background: url("/images/header-bg2.jpg") no-repeat center center; }
   @media screen and (max-width: 600px) {
     .site-header {
       width: 107%;
@@ -262,7 +262,7 @@ hr {
   width: 100%;
   height: 100px;
   padding: 20px 0;
-  background: url("../images/bottom-bg.png") no-repeat center center; }
+  background: url("/images/bottom-bg.png") no-repeat center center; }
   @media screen and (max-width: 600px) {
     .site-footer {
       height: 75px;
@@ -483,7 +483,7 @@ hr {
   box-shadow: 0 0 20px 5px #000; }
 
 .lb-canvas-loading {
-  background: #fff url("../images/spinner.gif") center center no-repeat; }
+  background: #fff url("/images/spinner.gif") center center no-repeat; }
 
 .lb-controls {
   position: fixed;

@@ -291,7 +291,7 @@ hr {
   height: 100px;
   margin: 0;
 
-  background: url('../images/header-bg2.jpg') no-repeat center center;
+  background: url('/images/header-bg2.jpg') no-repeat center center;
 
   @include media-query($on-palm) {
     width: 107%;
@@ -411,7 +411,7 @@ hr {
   height: 100px;
   padding: $spacing-unit 0;
 
-  background: url('../images/bottom-bg.png') no-repeat center center;
+  background: url('/images/bottom-bg.png') no-repeat center center;
 
   @include media-query($on-palm) {
     height: 75px;
@@ -709,7 +709,7 @@ hr {
 }
 
 .lb-canvas-loading {
-  background: $white url('../images/spinner.gif') center center no-repeat;
+  background: $white url('/images/spinner.gif') center center no-repeat;
 }
 
 .lb-controls {
