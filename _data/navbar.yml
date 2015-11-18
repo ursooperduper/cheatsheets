@@ -1,0 +1,14 @@
+- name: "Home"
+  url: "http://ursooperduper.github.io"
+
+- name: "About"
+  url: "http://ursooperduper.github.io/about"
+
+- name: "Projects"
+  url: "http://ursooperduper.github.io/projects"
+
+- name: "Post Archive"
+  url: "http://ursooperduper.github.io/archive"
+
+- name: "Cheatsheets"
+  url: "/"
