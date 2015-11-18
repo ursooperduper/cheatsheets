@@ -2,6 +2,8 @@
 
 master: [![Build Status](https://travis-ci.org/ursooperduper/cheatsheets.svg?branch=master)](https://travis-ci.org/ursooperduper/cheatsheets)
 
+gh-pages: [![Build Status](https://travis-ci.org/ursooperduper/cheatsheets.svg?branch=gh-pages)](https://travis-ci.org/ursooperduper/cheatsheets)
+
 This project aims to provide cheatsheets for the software people use everyday. Each cheatsheet is available in an easy to read digital and print format at http://ursooperduper.github.io/cheatsheets
 
 ## Included Cheatsheets
