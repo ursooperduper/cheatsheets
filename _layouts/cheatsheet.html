@@ -1,0 +1,44 @@
+---
+layout: base
+---
+<h2>{{ page.name }} Cheatsheet</h2>
+<div class='sc-header'>
+  <div class='sc-header-col1'>
+    <div class='sc-header-title'>// This might work...</div>
+    <div class='sc-header-url'>http://ursooperduper.github.io/cheatsheets{{ page.url }}</div>
+  </div>
+  <div class='sc-header-col2'>
+    {{ page.name }} Cheatsheet
+  </div>
+</div>
+<div class='shortcut-cols'>
+  <div class='shortcut-col1'>
+    {% for section in page.sections %}
+    {% include shortcuts.html section=section  name=page.data-file %}
+    {% endfor %}
+  </div>
+  <div class='shortcut-col2'>
+    {% include legend.html %}
+    <div class='print-msg'>Print this page for a specially formatted version of this cheatsheet.</div>
+  </div>
+</div>
+<div class='shortcut-print-cols'>
+  <div class='sc-print-cols1'>
+    {% for ps in page.print.section-1 %}
+    {% include shortcuts.html section = ps name=page.data-file %}
+    {% endfor %}
+  </div>
+  <div class='sc-print-cols2'>
+    {% for ps in page.print.section-2 %}
+    {% include shortcuts.html section = ps name=page.data-file %}
+    {% endfor %}
+  </div>
+  <div class='sc-print-cols3'>
+    {% for ps in page.print.section-3 %}
+    {% include shortcuts.html section = ps name=page.data-file %}
+    {% endfor %}
+  </div>
+</div>
+<div class='shortcut-print-legend'>
+  {% include legend-print.html %}
+</div>

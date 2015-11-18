@@ -1,0 +1,9 @@
+<p class='sc-heading'>Legend</p>
+<table class='legend'>
+  {% for sc in site.data.legend %}
+  <tr class='shortcut'>
+    <td class='legend-sc'>{{ sc.symbol }}</td>
+    <td class='desc'>{{ sc.name }}</td>
+  </tr>
+  {% endfor %}
+</table>

@@ -1,0 +1,7 @@
+.legend-heading<= "Legend"
+
+.legend
+  {% for sc in site.data.legend %}
+  %span.legend-sc< {{ sc.symbol }}
+  %span.desc< {{ sc.name }}
+  {% endfor %}

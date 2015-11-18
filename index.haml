@@ -1,0 +1,18 @@
+\---
+layout: base
+\---
+
+/ List of Cheatsheets
+%h1<= "Cheatsheets"
+
+%p<
+  Learn all the keyboard shortcuts! View and print simplified keyboard shortcut documents for all your favorite tools!
+
+%h3<= "Available Cheatsheets"
+
+%ul.cheat-list
+  {% for cs in site.cheatsheets %}
+  %li<
+    %a{href: "{{ cs.url }}"}<
+      {{ cs.name }}
+  {% endfor %}

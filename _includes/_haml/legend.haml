@@ -1,0 +1,8 @@
+%p.sc-heading<= "Legend"
+
+%table.legend
+  {% for sc in site.data.legend %}
+  %tr.shortcut
+    %td.legend-sc< {{ sc.symbol }}
+    %td.desc< {{ sc.name }}
+  {% endfor %}

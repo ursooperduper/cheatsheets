@@ -1,0 +1,7 @@
+<div class='legend-heading'>Legend</div>
+<div class='legend'>
+  {% for sc in site.data.legend %}
+  <span class='legend-sc'>{{ sc.symbol }}</span>
+  <span class='desc'>{{ sc.name }}</span>
+  {% endfor %}
+</div>

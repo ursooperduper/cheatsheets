@@ -1,0 +1,304 @@
+@import 'main';
+
+$shortcut-spacer: 3px;
+$print-background: #e6e7e8;
+$print-page-width: 680px;
+$print-title-size: 12px;
+$print-site-title-weight: 700;
+$print-site-url: 10px;
+$print-heading-size: 10px;
+$print-heading-weight: bold;
+$print-title-color: #4b4b4b;
+$print-shortcut-desc-color: #6d6e71;
+$print-shortcut-color: #231f20;
+
+.sc-heading {
+  margin-bottom: $shortcut-spacer * 2;
+
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.shortcuts {
+  width: 250px;
+
+  border: 0;
+
+  font-size: .8em;
+
+  border-collapse: collapse;
+
+  break-inside: avoid;
+}
+
+.sc {
+  width: 70px;
+  padding-left: $shortcut-spacer * 2;
+
+  border: 0;
+
+  word-spacing: .1em;
+}
+
+.legend {
+  width: 100px;
+  margin-bottom: 30px;
+
+  font-size: .8em;
+
+  border-collapse: collapse;
+}
+
+.legend-sc {
+  width: 30px;
+  padding-left: $shortcut-spacer * 2;
+}
+
+.desc {
+  padding-right: $shortcut-spacer * 2;
+  padding-left: $shortcut-spacer * 2;
+  border: 0;
+}
+
+.shortcut:nth-child(odd) {
+  background-color: $white;
+}
+
+.shortcut:nth-child(even) {
+  background-color: $background-color;
+}
+
+.shortcut {
+  border-bottom: 1px solid $grey-color-light;
+}
+
+.shortcut:first-child {
+  border-top: 1px solid $grey-color-light;
+}
+
+.shortcut:hover {
+  background-color: lighten($brand-color, 40%);
+}
+
+.cheat-list {
+  margin: 0;
+  columns: 3;
+
+  list-style: none;
+
+  a {
+    display: block;
+    width: 90%;
+    margin-top: $spacing-unit-sm;
+    padding: $spacing-unit-sm;
+
+    border: 1px solid $grey-color-light;
+
+    background-color: $white;
+  }
+
+  a:hover {
+    background-color: lighten($brand-color, 40%);
+  }
+}
+
+.shortcut-cols {
+  display: flex;
+  flex-flow: row nowrap;
+
+  margin: auto 0;
+}
+
+.shortcut-col1 {
+  padding-right: $shortcut-spacer * 10;
+  columns: 2;
+
+  vertical-align: top;
+}
+
+.shortcut-col2 {
+  width: 100px;
+}
+
+.cheatsheet-button {
+  margin-bottom: $shortcut-spacer * 4;
+  padding: $shortcut-spacer * 2;
+  border-radius: $shortcut-spacer;
+
+  background-color: darken($brand-color, 20%);
+
+  font-size: .8em;
+
+  a {
+    color: $white;
+  }
+}
+
+.sc-header,
+.shortcut-print-cols,
+.shortcut-print-legend {
+  display: none;
+}
+
+.print-msg {
+  padding: $shortcut-spacer * 2;
+  border: 1px dotted darken($brand-color, 20%);
+  color: darken($brand-color, 20%);
+  font-size: 12px;
+}
+
+.shortcut-group {
+  padding-top: $shortcut-spacer * 3;
+  break-inside: avoid;
+}
+
+
+@media print {
+  // Print stylesheets
+  $print-background: #e6e7e8;
+  $print-page-width: 712px;
+  $print-title-size: 12px;
+  $print-site-title-weight: 700;
+  $print-site-url: 10px;
+  $print-heading-size: 10px;
+  $print-heading-weight: bold;
+  $print-title-color: #4b4b4b;
+  $print-shortcut-desc-color: #6d6e71;
+  $print-shortcut-color: #231f20;
+  $shortcut-spacer: 3px;
+
+  body {
+    background-color: $white;
+
+    color: $txt-color;
+    font: {
+      family: $body-font-stack;
+      size: $base-font-size;
+      weight: 300;
+    }
+  }
+
+  .l-wrapper {
+    width: $print-page-width;
+  }
+
+  .site-header,
+  .site-footer,
+  .shortcut-cols,
+  h2 {
+    display: none;
+  }
+
+  .sc-header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 100%;
+    height: 42px;
+    min-height: 42px;
+    margin-bottom: $shortcut-spacer * 2;
+
+    background: url('/images/tmw-logo-bw.png') no-repeat 6px center;
+    background-color: $print-background;
+  }
+
+  .shortcut-print-cols,
+  .shortcut-print-legend {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .shortcut-print-legend {
+    align-items: center;
+    justify-content: center;
+    margin-top: $shortcut-spacer * 2;
+    padding: $shortcut-spacer;
+    background-color: $print-background;
+  }
+
+  .sc-header-col1 {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50%;
+  }
+
+  .sc-header-col2 {
+    width: 50%;
+    padding-right: $shortcut-spacer * 2;
+    text-align: right;
+  }
+
+  .sc-header-title {
+    margin-left: 40px;
+
+    font: {
+      family: $hl-font-stack;
+      size: $print-title-size;
+      weight: 700;
+    }
+  }
+
+  .sc-header-url {
+    margin-left: 40px;
+
+    font: {
+      family: Helvetica, Arial, sans-serif;
+      size: 11px;
+      weight: 500;
+    }
+  }
+
+  .sc-heading {
+    margin-bottom: $shortcut-spacer;
+
+    font: {
+      size: 10px;
+      weight: bold;
+    }
+  }
+
+  .legend-heading {
+    margin-top: 2px;
+    margin-right: $shortcut-spacer * 3;
+
+    font: {
+      size: 10px;
+      weight: bold;
+    }
+  }
+
+  .shortcuts {
+    width: 200px;
+    margin-bottom: $shortcut-spacer * 3;
+
+    border: 0;
+
+    font-size: 10px;
+
+    border-collapse: collapse;
+  }
+
+  .legend {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 80%;
+    margin-bottom: 0;
+
+    font-size: 9px;
+  }
+
+  .sc-print-cols1,
+  .sc-print-cols2 {
+    padding-right: $shortcut-spacer * 5;
+  }
+
+  .legend .legend-sc {
+    width: 15px;
+    padding-left: $shortcut-spacer * 2;
+  }
+
+  .legend .desc {
+    padding-right: $shortcut-spacer * 4;
+    padding-left: 0;
+  }
+}

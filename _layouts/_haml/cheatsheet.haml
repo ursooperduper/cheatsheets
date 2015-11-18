@@ -1,0 +1,44 @@
+\---
+layout: base
+\---
+
+%h2<= "{{ page.name }} Cheatsheet"
+
+.sc-header
+  .sc-header-col1
+    .sc-header-title<
+      \// This might work...
+
+    .sc-header-url<
+      http://ursooperduper.github.io/cheatsheets{{ page.url }}
+
+  .sc-header-col2
+    {{ page.name }} Cheatsheet
+
+.shortcut-cols
+  .shortcut-col1
+    {% for section in page.sections %}
+    {% include shortcuts.html section=section  name=page.data-file %}
+    {% endfor %}
+
+  .shortcut-col2
+    {% include legend.html %}
+
+    .print-msg<
+      Print this page for a specially formatted version of this cheatsheet.
+
+.shortcut-print-cols
+  .sc-print-cols1
+    {% for ps in page.print.section-1 %}
+    {% include shortcuts.html section = ps name=page.data-file %}
+    {% endfor %}
+  .sc-print-cols2
+    {% for ps in page.print.section-2 %}
+    {% include shortcuts.html section = ps name=page.data-file %}
+    {% endfor %}
+  .sc-print-cols3
+    {% for ps in page.print.section-3 %}
+    {% include shortcuts.html section = ps name=page.data-file %}
+    {% endfor %}
+.shortcut-print-legend
+  {% include legend-print.html %}

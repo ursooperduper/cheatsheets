@@ -1,0 +1,10 @@
+.shortcut-group
+  %p.sc-heading< {{ include.section }}
+
+  %table.shortcuts
+    {% assign dsection = include.section | downcase %}
+    {% for sc in site.data[include.name][dsection] %}
+    %tr.shortcut
+      %td.sc< {{ sc.shortcut }}
+      %td.desc< {{ sc.desc }}
+    {% endfor %}
