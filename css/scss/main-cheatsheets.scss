@@ -86,6 +86,10 @@ $print-shortcut-color: #231f20;
 
   list-style: none;
 
+  @include media-query($on-palm) {
+    columns: 1;
+  }
+
   a {
     display: block;
     width: 90%;
@@ -102,11 +106,16 @@ $print-shortcut-color: #231f20;
   }
 }
 
+
 .shortcut-cols {
   display: flex;
   flex-flow: row nowrap;
 
   margin: auto 0;
+
+  @include media-query($on-palm) {
+    flex-flow: column nowrap;
+  }
 }
 
 .shortcut-col1 {
@@ -114,10 +123,19 @@ $print-shortcut-color: #231f20;
   columns: 2;
 
   vertical-align: top;
+
+  @include media-query($on-palm) {
+    columns: 1;
+  }
 }
 
 .shortcut-col2 {
   width: 100px;
+
+  @include media-query($on-palm) {
+    width: 100%;
+    padding-top: $shortcut-spacer * 4;
+  }
 }
 
 .cheatsheet-button {

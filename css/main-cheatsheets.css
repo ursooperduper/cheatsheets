@@ -774,6 +774,11 @@ figure {
   -moz-columns: 3;
   columns: 3;
   list-style: none; }
+  @media screen and (max-width: 600px) {
+    .cheat-list {
+      -webkit-columns: 1;
+      -moz-columns: 1;
+      columns: 1; } }
   .cheat-list a {
     display: block;
     width: 90%;
@@ -792,6 +797,11 @@ figure {
   -ms-flex-flow: row nowrap;
   flex-flow: row nowrap;
   margin: auto 0; }
+  @media screen and (max-width: 600px) {
+    .shortcut-cols {
+      -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap; } }
 
 .shortcut-col1 {
   padding-right: 30px;
@@ -799,9 +809,18 @@ figure {
   -moz-columns: 2;
   columns: 2;
   vertical-align: top; }
+  @media screen and (max-width: 600px) {
+    .shortcut-col1 {
+      -webkit-columns: 1;
+      -moz-columns: 1;
+      columns: 1; } }
 
 .shortcut-col2 {
   width: 100px; }
+  @media screen and (max-width: 600px) {
+    .shortcut-col2 {
+      width: 100%;
+      padding-top: 12px; } }
 
 .cheatsheet-button {
   margin-bottom: 12px;
