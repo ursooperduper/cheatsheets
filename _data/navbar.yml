@@ -11,4 +11,4 @@
   url: "http://ursooperduper.github.io/archive"
 
 - name: "Cheatsheets"
-  url: "/cheatsheets"
+  url: "{{ site.baseurl }}"
