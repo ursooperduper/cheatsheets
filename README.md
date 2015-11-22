@@ -9,6 +9,8 @@ This project aims to provide cheatsheets for the software people use everyday. E
 ## Included Cheatsheets
 
 * Atom
+* Firefox
+* Framer Studio
 * Gmail
 * Google Calendar
 * Google Chrome
@@ -17,9 +19,12 @@ This project aims to provide cheatsheets for the software people use everyday. E
 * Google Sheets
 * iTerm
 * Safari
+* Sketch
 * Slack
 * Trello
+* Tweetbot
 * Twitter (Web)
+* Xcode
 
 ## Why are you doing this?
 
