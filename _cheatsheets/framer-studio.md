@@ -11,10 +11,10 @@ sections:
 print:
   section-1:
   - General
-  section-2:
-  - Edit`
   - Find
+  section-2:
+  - Edit
+  - Window
   section-3:
   - View
-  - Window
 ---
