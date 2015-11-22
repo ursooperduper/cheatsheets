@@ -785,7 +785,10 @@ figure {
     margin-top: 10px;
     padding: 10px;
     border: 1px solid #c9c9c9;
-    background-color: #fff; }
+    background-color: #fff;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid; }
   .cheat-list a:hover {
     background-color: #b9f3f3; }
 
@@ -952,5 +955,9 @@ figure {
   .legend .desc {
     padding-right: 12px;
     padding-left: 0; } }
+
+/*# sourceMappingURL=main-cheatsheets.css.map */
+
+/*# sourceMappingURL=main-cheatsheets.css.map */
 
 /*# sourceMappingURL=main-cheatsheets.css.map */

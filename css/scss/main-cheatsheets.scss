@@ -99,6 +99,8 @@ $print-shortcut-color: #231f20;
     border: 1px solid $grey-color-light;
 
     background-color: $white;
+
+    break-inside: avoid;
   }
 
   a:hover {
