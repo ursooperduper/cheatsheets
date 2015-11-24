@@ -10,6 +10,7 @@ This project aims to provide cheatsheets for the software people use everyday. E
 
 * 1Password
 * Atom
+* Calendar (El Capitan)
 * Dropbox
 * Evernote
 * Firefox
@@ -23,8 +24,12 @@ This project aims to provide cheatsheets for the software people use everyday. E
 * iTerm
 * Jira
 * Safari
+* SizeUp
 * Sketch
+* Skype
 * Slack
+* Spotify
+* Textual
 * Trello
 * Tweetbot
 * TweetDeck
