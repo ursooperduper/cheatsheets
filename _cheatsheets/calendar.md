@@ -9,6 +9,6 @@ print:
   section-1:
   - Calendar
   section-2:
-  - Event`
+  - Event
   section-3:
 ---

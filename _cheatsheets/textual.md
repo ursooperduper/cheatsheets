@@ -14,13 +14,13 @@ sections:
 print:
   section-1:
     - Navigation
-    - Text Formatting
     - Channel Management
   section-2:
     - Server Management
     - View Controls
     - Window Controls
   section-3:
+    - Text Formatting
     - Application Controls
     - Special Actions
 ---
