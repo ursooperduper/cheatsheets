@@ -52,7 +52,7 @@ view issue and issue navigator:
   - shortcut: U
     desc: Back to the Navigator
 
-  - shortcut: [
+  - shortcut: '['
     desc: Toggle Left Section
 
   - shortcut: N
