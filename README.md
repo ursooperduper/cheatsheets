@@ -8,7 +8,10 @@ This project aims to provide cheatsheets for the software people use everyday. E
 
 ## Included Cheatsheets
 
+* 1Password
 * Atom
+* Dropbox
+* Evernote
 * Firefox
 * Framer Studio
 * Gmail
@@ -18,11 +21,13 @@ This project aims to provide cheatsheets for the software people use everyday. E
 * Google Hangouts
 * Google Sheets
 * iTerm
+* Jira
 * Safari
 * Sketch
 * Slack
 * Trello
 * Tweetbot
+* TweetDeck
 * Twitter (Web)
 * Xcode
 
