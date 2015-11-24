@@ -45,5 +45,5 @@ file actions:
   - shortcut: ⌘ Z
     desc: Undo Recent Move/Copy/Rename/Delete
 
-  - shortcut: ?
+  - shortcut: '?'
     desc: Show Keyboard Shortcuts

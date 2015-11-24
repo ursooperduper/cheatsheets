@@ -156,7 +156,7 @@ note editor:
   - shortcut: ⇧ ⌘ G
     desc: Find Previous
 
-  - shortcut: ⌘ :
+  - shortcut: '⌘ :'
     desc: Show Spelling & Grammar
 
   - shortcut: ⌘ ;

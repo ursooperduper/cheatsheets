@@ -21,7 +21,7 @@ global:
   - shortcut: ⎋
     desc: Close Pop-up / Cancel Search
 
-  - shortcut: ?
+  - shortcut: '?'
     desc: Show Keyboard Shortcuts
 
 navigation:

@@ -24,7 +24,7 @@ global:
   - shortcut: C
     desc: Create Issue
 
-  - shortcut: ?
+  - shortcut: '?'
     desc: Open Shortcut Help
 
   - shortcut: ⌃ ⌥ D
