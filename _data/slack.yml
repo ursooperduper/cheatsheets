@@ -67,7 +67,7 @@ general:
 
 switching teams in desktop app:
   - shortcut: '⌘ ⇧ ['
-    desc: Swtich to previous team
+    desc: Switch to previous team
 
   - shortcut: '⌘ ⇧ ]'
     desc: Switch to next team
