@@ -22,7 +22,7 @@ global:
   - shortcut: ⌃ ⌘ E
     desc: Search in Evernote
 
-app-wide:
+application wide:
   - shortcut: ⌘ N
     desc: New Note
 
