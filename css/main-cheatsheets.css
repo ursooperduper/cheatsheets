@@ -203,7 +203,6 @@ hr {
 .site-nav {
   margin-right: 0;
   margin-bottom: 0;
-  padding-left: 70px;
   color: #fff;
   font-family: "museo-slab", serif;
   font-size: 1.1em;
@@ -955,5 +954,7 @@ figure {
   .legend .desc {
     padding-right: 12px;
     padding-left: 0; } }
+
+/*# sourceMappingURL=main-cheatsheets.css.map */
 
 /*# sourceMappingURL=main-cheatsheets.css.map */
