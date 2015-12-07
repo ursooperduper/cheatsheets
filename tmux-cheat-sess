@@ -4,7 +4,7 @@ if [ $? != 0 ]
 then
   tmux new-session -s cheat -n editor -d
   tmux send-keys -t cheat:1.1 'cd ~/Dropbox/code/cheatsheets' C-m
-  tmux send-keys -t cheat:1.1 'jekyll serve --watch --incremental' C-m
+  tmux send-keys -t cheat:1.1 'jekyll serve --watch --incremental --baseurl '' ' C-m
 
   tmux split-window -h -t cheat:1.1
   tmux send-keys -t cheat:1.2 'cd ~/Dropbox/code/cheatsheets' C-m
